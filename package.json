@@ -1,27 +1,31 @@
 {
-	"name": "reveal.js",
-	"version": "2.2.0",
-	"description": "The HTML Presentation Framework",
-	"homepage": "http://lab.hakim.se/reveal-js",
+	"name": "training.js",
+	"version": "0.0.0",
+	"description": "A JavaScript/BDD/Node.js course",
+	"homepage": "http://trainingjs.jit.su/",
 	"author": {
-		"name": "Hakim El Hattab",
-		"email": "hakim.elhattab@gmail.com",
-		"web": "http://hakim.se"
+		"name": "Julien Biezemans",
+		"email": "jb@jbpros.com",
+		"web": "http://jbpros.net"
 	},
 	"repository": {
 		"type": "git",
-		"url": "git://github.com/hakimel/reveal.js.git"
+		"url": "git://github.com/jbpros/training.js.git"
 	},
 	"engines": {
 		"node": "~0.8.0"
 	},
 	"dependencies": {
-		"underscore" : "~1.3.3",
-		"express" : "~2.5.9",
-		"socket.io" : "~0.9.6",
-		"mustache" : "~0.4.0"
+		"underscore": "~1.3.3",
+		"express": "~2.5.9",
+		"socket.io": "~0.9.6",
+		"mustache": "~0.4.0"
 	},
 	"devDependencies": {
 		"grunt-contrib-mincss": "~0.3.1"
+	},
+	"subdomain": "trainingjs",
+	"scripts": {
+		"start": "server.js"
 	}
 }
